@@ -20,7 +20,6 @@ def generate_launch_description():
             output='screen',
             parameters=[parameters_file_path],
             arguments=[],
-            remappings=[('imu/data','xsens/imu')]
             )
     ld.add_action(xsens_mti_node)
 
